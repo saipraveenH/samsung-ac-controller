@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          smartthings:
+            client-id: ${SMARTTHINGS_CLIENT_ID}
+            client-secret: ${SMARTTHINGS_CLIENT_SECRET}
